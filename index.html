@@ -28,8 +28,8 @@
                     <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">EDUCATION</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                  <!-- <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>-->
                     <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
                 </ul>
             </nav>
@@ -51,9 +51,9 @@
                <!--- <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-skype"></i></a>-->
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/lillian-solis-avila/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
 
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/LilliamSA" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
     </section>
@@ -70,18 +70,18 @@
             <div class="fila">
                 <!-- datos personales -->
                 <div class="col">
-                    <h3>Datos Personales</h3>
+                    <h3>Personal information</h3>
                     <ul>
                         <li>
-                            <strong>Correo</strong>
+                            <strong>Email</strong>
                             lilliam.solis.avila@gmail.com
                         </li>
                         <li>
                             <strong>Website</strong>
-                            www.example.com
+                            <a href="https://lilliamsa.github.io/Portfolio/"  style="color: white;" target="_blank">lilliamsa.github.io/Portfolio/</a>
                         </li>
                         <li>
-                            <strong>Cargo</strong>
+                            <strong>Position</strong>
                             <span>Intern</span>
                         </li>
                     </ul>
@@ -261,7 +261,7 @@
     <!-- SECCION CURRICULUM -->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
-            <h2>Education</h2>
+            <h2>Curriculum</h2>
             <div class="fila">
                 <div class="col izquierda">
                     <h3>University</h3>
@@ -275,7 +275,7 @@
                             </div>
                         </div>
                         <div class="item izq">
-                            <h4>Tecnology</h4>
+                            <h4>Technology</h4>
                             <span class="casa">Universidad Nacional</span>
                             <span class="fecha">2020 - Present</span>
                             <p>Bachelor of Systems Engineering</p>
@@ -349,7 +349,7 @@
         </div>
     </section>
 
-    <!-- SECCION PORTFOLIO -->
+    <!-- SECCION PORTFOLIO 
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
             <h2>PORTFOLIO</h2>
@@ -375,19 +375,19 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
+            <h2>CONTACT</h2>
             <div class="fila">
                 <!-- Formulario -->
                 <form id="form" class="col">
-                    <input type="text" name= "nombre" placeholder="Nombre completo">
-                    <input type="text" name="email" placeholder="Dirección de correo">
-                    <input type="text" name="subject" placeholder="Tema">
-                    <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="text" name= "nombre" placeholder="Full name">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="mensaje" cols="30" rows="10" placeholder="Message"></textarea>
                     <button id="button" onclick="enviarFormulario()" value="Send Email">
                     Send <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
